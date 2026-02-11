@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Contact NexCore Technologies - Get in touch for web development, e-commerce, and AI solutions.">
+    <meta name="keywords" content="contact nexcore, web development inquiry, get quote, contact us">
+    <meta name="author" content="NexCore Technologies">
+    <title>Contact Us - NexCore Technologies</title>
+    
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="css/style.css">
+    
+    <!-- Favicon (placeholder) -->
+    <link rel="icon" type="image/png" href="images/favicon.png">
+</head>
+<body>
+    
+    <!-- ========================================
+         NAVIGATION BAR
+         ======================================== -->
+    <nav>
+        <div class="container">
+            <a href="index.html" class="logo">NexCore</a>
+            
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="team.html">Team</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            
+            <!-- Mobile Menu Toggle -->
+            <div class="menu-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+    
+    <!-- ========================================
+         PAGE HEADER
+         ======================================== -->
+    <section class="hero" style="min-height: 60vh;">
+        <div class="geometric-bg">
+            <div class="geometric-shape shape-1"></div>
+            <div class="geometric-shape shape-2"></div>
+            <div class="geometric-shape shape-3"></div>
+        </div>
+        
+        <div class="container">
+            <div class="hero-content" style="text-align: center; max-width: 800px; margin: 0 auto;">
+                <h1>Get In <span class="gradient-text">Touch</span></h1>
+                <p>Have a project in mind? Questions about our services? We'd love to hear from you. Let's start a conversation and explore how we can help your business grow.</p>
+            </div>
+        </div>
+    </section>
+    
+    <!-- ========================================
+         CONTACT SECTION
+         ======================================== -->
+    <section>
+        <div class="container">
+            <div class="contact-container">
+                <!-- Contact Information -->
+                <div class="contact-info">
+                    <div class="reveal">
+                        <h2 style="margin-bottom: 1.5rem;">Contact Information</h2>
+                        <p style="margin-bottom: 2.5rem;">
+                            Reach out through any of these channels. We typically respond within 24 hours during business days.
+                        </p>
+                    </div>
+                    
+                    <!-- Email -->
+                    <div class="info-item reveal">
+                        <div class="info-icon">✉️</div>
+                        <div class="info-text">
+                            <h4>Email Us</h4>
+                            <p>info@nexcore.tech</p>
+                            <p style="font-size: 0.9rem; margin-top: 0.5rem;">For general inquiries and support</p>
+                        </div>
+                    </div>
+                    
+                    <!-- Phone -->
+                    <div class="info-item reveal">
+                        <div class="info-icon">📞</div>
+                        <div class="info-text">
+                            <h4>Call Us</h4>
+                            <p>+92 123 456 7890</p>
+                            <p style="font-size: 0.9rem; margin-top: 0.5rem;">Mon - Fri, 9:00 AM - 6:00 PM</p>
+                        </div>
+                    </div>
+                    
+                    <!-- Address -->
+                    <div class="info-item reveal">
+                        <div class="info-icon">📍</div>
+                        <div class="info-text">
+                            <h4>Visit Us</h4>
+                            <p>Hyderabad, Sindh</p>
+                            <p>Pakistan</p>
+                            <p style="font-size: 0.9rem; margin-top: 0.5rem;">Office visits by appointment only</p>
+                        </div>
+                    </div>
+                    
+                    <!-- Social Media -->
+                    <div class="info-item reveal">
+                        <div class="info-icon">🌐</div>
+                        <div class="info-text">
+                            <h4>Follow Us</h4>
+                            <p>Connect with us on social media</p>
+                            <div style="display: flex; gap: 1rem; margin-top: 1rem;">
+                                <a href="#" style="font-size: 1.5rem;" title="LinkedIn">💼</a>
+                                <a href="#" style="font-size: 1.5rem;" title="Facebook">📘</a>
+                                <a href="#" style="font-size: 1.5rem;" title="Twitter">🐦</a>
+                                <a href="#" style="font-size: 1.5rem;" title="Instagram">📷</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Contact Form -->
+                <div class="contact-form reveal">
+                    <h3 style="margin-bottom: 1.5rem;">Send Us a Message</h3>
+                    <p style="margin-bottom: 2rem; color: var(--text-gray);">
+                        Fill out the form below and we'll get back to you as soon as possible.
+                    </p>
+                    
+                    <form id="contactForm" action="contact.php" method="POST">
+                        <!-- Name Field -->
+                        <div class="form-group">
+                            <label for="name">Full Name *</label>
+                            <input 
+                                type="text" 
+                                id="name" 
+                                name="name" 
+                                placeholder="Enter your full name" 
+                                required
+                            >
+                        </div>
+                        
+                        <!-- Email Field -->
+                        <div class="form-group">
+                            <label for="email">Email Address *</label>
+                            <input 
+                                type="email" 
+                                id="email" 
+                                name="email" 
+                                placeholder="your.email@example.com" 
+                                required
+                            >
+                        </div>
+                        
+                        <!-- Phone Field (Optional) -->
+                        <div class="form-group">
+                            <label for="phone">Phone Number</label>
+                            <input 
+                                type="tel" 
+                                id="phone" 
+                                name="phone" 
+                                placeholder="+92 123 456 7890"
+                            >
+                        </div>
+                        
+                        <!-- Subject Field -->
+                        <div class="form-group">
+                            <label for="subject">Subject</label>
+                            <input 
+                                type="text" 
+                                id="subject" 
+                                name="subject" 
+                                placeholder="What is this regarding?"
+                            >
+                        </div>
+                        
+                        <!-- Message Field -->
+                        <div class="form-group">
+                            <label for="message">Message *</label>
+                            <textarea 
+                                id="message" 
+                                name="message" 
+                                placeholder="Tell us about your project or inquiry..." 
+                                required
+                            ></textarea>
+                        </div>
+                        
+                        <!-- Submit Button -->
+                        <button type="submit" class="btn btn-primary">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- ========================================
+         FAQ SECTION
+         ======================================== -->
+    <section style="background: var(--light-gray);">
+        <div class="container">
+            <div class="section-header reveal">
+                <h2>Frequently Asked Questions</h2>
+                <p>Quick answers to common questions</p>
+            </div>
+            
+            <div class="services-grid" style="grid-template-columns: 1fr; max-width: 900px; margin: 0 auto;">
+                <!-- FAQ 1 -->
+                <div class="service-card reveal">
+                    <h3>How long does it take to build a website?</h3>
+                    <p>Typical websites take 2-4 weeks from start to finish. Complex e-commerce sites may take 4-8 weeks. Timeline depends on project scope and your feedback speed.</p>
+                </div>
+                
+                <!-- FAQ 2 -->
+                <div class="service-card reveal">
+                    <h3>What are your pricing rates?</h3>
+                    <p>We offer competitive, transparent pricing starting from $500 for basic websites. Each project is unique, so we provide custom quotes based on your specific requirements.</p>
+                </div>
+                
+                <!-- FAQ 3 -->
+                <div class="service-card reveal">
+                    <h3>Do you provide hosting and domain services?</h3>
+                    <p>Yes! We offer reliable web hosting and domain registration services. We can also work with your existing hosting provider if you prefer.</p>
+                </div>
+                
+                <!-- FAQ 4 -->
+                <div class="service-card reveal">
+                    <h3>Will my website be mobile-friendly?</h3>
+                    <p>Absolutely! All our websites are fully responsive and optimized for mobile, tablet, and desktop devices. Mobile-first design is our standard.</p>
+                </div>
+                
+                <!-- FAQ 5 -->
+                <div class="service-card reveal">
+                    <h3>Do you offer ongoing support after launch?</h3>
+                    <p>Yes, we provide maintenance and support packages starting from $50/month. This includes updates, security monitoring, and technical assistance.</p>
+                </div>
+                
+                <!-- FAQ 6 -->
+                <div class="service-card reveal">
+                    <h3>Can you help with SEO and digital marketing?</h3>
+                    <p>Yes! We offer SEO optimization, Google Analytics setup, and can connect you with trusted marketing partners for comprehensive digital strategies.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- ========================================
+         BUSINESS HOURS SECTION
+         ======================================== -->
+    <section>
+        <div class="container">
+            <div class="section-header reveal">
+                <h2>Business Hours</h2>
+                <p>When you can reach us</p>
+            </div>
+            
+            <div class="about-content" style="max-width: 800px; margin: 0 auto;">
+                <div class="about-text reveal" style="text-align: center;">
+                    <div style="background: var(--light-gray); padding: 3rem; border-radius: 20px;">
+                        <h3 style="margin-bottom: 2rem;">Office Hours</h3>
+                        
+                        <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; text-align: left; margin-bottom: 2rem;">
+                            <div>
+                                <strong>Monday - Friday:</strong>
+                                <p style="margin: 0;">9:00 AM - 6:00 PM</p>
+                            </div>
+                            <div>
+                                <strong>Saturday:</strong>
+                                <p style="margin: 0;">10:00 AM - 3:00 PM</p>
+                            </div>
+                            <div>
+                                <strong>Sunday:</strong>
+                                <p style="margin: 0;">Closed</p>
+                            </div>
+                            <div>
+                                <strong>Public Holidays:</strong>
+                                <p style="margin: 0;">Closed</p>
+                            </div>
+                        </div>
+                        
+                        <p style="color: var(--text-gray); font-size: 0.95rem;">
+                            <strong>Email Support:</strong> We respond to emails within 24 hours during business days. For urgent matters, please call us directly.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- ========================================
+         MAP SECTION (Placeholder)
+         ======================================== -->
+    <section style="background: var(--light-gray); padding: 0;">
+        <div class="reveal" style="width: 100%; height: 400px; background: var(--gradient-dark); display: flex; align-items: center; justify-content: center;">
+            <div style="text-align: center; color: var(--white);">
+                <div style="font-size: 4rem; margin-bottom: 1rem;">📍</div>
+                <h3 style="color: var(--white); margin-bottom: 0.5rem;">PLACEHOLDER - Map Location</h3>
+                <p style="color: rgba(255, 255, 255, 0.8);">Interactive map will be displayed here</p>
+                <p style="color: rgba(255, 255, 255, 0.7); font-size: 0.9rem;">Hyderabad, Sindh, Pakistan</p>
+            </div>
+        </div>
+    </section>
+    
+    <!-- ========================================
+         CTA SECTION
+         ======================================== -->
+    <section style="background: var(--gradient-dark); color: var(--white); text-align: center;">
+        <div class="container reveal">
+            <h2 style="color: var(--white); margin-bottom: 1.5rem;">Ready to Transform Your Business?</h2>
+            <p style="color: rgba(255, 255, 255, 0.8); font-size: 1.2rem; margin-bottom: 2.5rem; max-width: 700px; margin-left: auto; margin-right: auto;">
+                Don't wait to get started. Contact us today and let's discuss how we can help you achieve your digital goals.
+            </p>
+            <div style="display: flex; gap: 1.5rem; justify-content: center; flex-wrap: wrap;">
+                <a href="#contactForm" class="btn btn-primary">Send Message</a>
+                <a href="tel:+921234567890" class="btn btn-secondary">Call Now</a>
+            </div>
+        </div>
+    </section>
+    
+    <!-- ========================================
+         FOOTER
+         ======================================== -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <!-- Company Info -->
+                <div class="footer-section">
+                    <h3>NexCore Technologies</h3>
+                    <p>Empowering businesses with smart, affordable digital solutions. From modern websites to AI automation, we're here to help you succeed.</p>
+                </div>
+                
+                <!-- Quick Links -->
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <ul class="footer-links">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="team.html">Team</a></li>
+                    </ul>
+                </div>
+                
+                <!-- Services -->
+                <div class="footer-section">
+                    <h3>Services</h3>
+                    <ul class="footer-links">
+                        <li><a href="services.html#web-dev">Web Development</a></li>
+                        <li><a href="services.html#ecommerce">E-Commerce</a></li>
+                        <li><a href="services.html#ai-chatbot">AI Chatbot</a></li>
+                        <li><a href="services.html#support">Support</a></li>
+                    </ul>
+                </div>
+                
+                <!-- Contact -->
+                <div class="footer-section">
+                    <h3>Contact</h3>
+                    <p>Email: info@nexcore.tech</p>
+                    <p>Phone: +92 123 456 7890</p>
+                    <p>Address: Hyderabad, Sindh, Pakistan</p>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2026 NexCore Technologies. All rights reserved. Built with passion by Team NexCore.</p>
+            </div>
+        </div>
+    </footer>
+    
+    <!-- JavaScript -->
+    <script src="js/script.js"></script>
+</body>
+</html>
